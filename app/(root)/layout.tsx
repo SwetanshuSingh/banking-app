@@ -4,8 +4,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main>
-      Sidebar
+    <main className=" font-inter">
+      SIDEBAR
       {children}
     </main>
   );
